@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="uk.co.clifford.engine.EngineTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2014-07-03T21:43:04" hostname="mark-K53SD" time="0.038">
+  <properties/>
+  <testcase name="testCompute" classname="uk.co.clifford.engine.EngineTest" time="0.038"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
