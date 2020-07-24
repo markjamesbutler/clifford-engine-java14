@@ -54,16 +54,17 @@ public class Engine {
 
     public static void main(String[] args) {
 
-        Deque deque = new ArrayDeque();
+        var deque = new ArrayDeque<Integer>();
 
         for (String arg: args) {
             deque.push(Integer.valueOf(arg));
         }
 
-        int result  = new Engine().compute(deque, new ArrayDeque<>());
+        int result  = new Engine().compute(deque, new ArrayDeque<Integer>());
 
-        System.out.println("Result: " + result);
-        System.out.println("Hex Result: " + Integer.toHexString(result));
+        System.out.printf("Result: %d\n", result);
+        var hex = Integer.toHexString(result);
+        System.out.printf("Hex Result: %s\n", hex);
 
     }
 }
